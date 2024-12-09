@@ -1,20 +1,25 @@
 package org.example.entities;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Generated;
 import lombok.NoArgsConstructor;
-import org.modelmapper.internal.bytebuddy.dynamic.loading.InjectionClassLoader;
 
 @Entity
 @Data
 @NoArgsConstructor
-@Table()
+@AllArgsConstructor
+@Table
 public class UserRole {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "role_id")
-    private Long roleId;
+    private long roleId;
+
     private String name;
+
+
 
 }

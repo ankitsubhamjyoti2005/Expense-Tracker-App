@@ -2,20 +2,16 @@ package org.example.entities;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+import jdk.jfr.Enabled;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import java.time.Instant;
 
-@Entity
+@Enabled
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -34,5 +30,5 @@ public class RefreshToken {
 
     @OneToOne
     @JoinColumn(name = "id", referencedColumnName = "user_id")
-    private Userinfo userInfo;
+    private UserInfo userinfo;
 }
