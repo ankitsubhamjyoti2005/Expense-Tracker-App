@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03749cf9-6679-4efd-ad0a-e789ffc4951e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/repository/RefreshTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/services/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/services/RefreshTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/auth/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/auth/UserConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/modele/UserInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/request/AuthRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/request/RefreshTokenRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/responce/JwtResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/services/UserDetailServiceImpli.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/entities/RefreshTockens.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/entities/RefreshToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/services/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/services/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/services/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/services/RefreshTokenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/src/main/java/org/example/repository/RefreshTokenRepository.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -68,6 +71,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build Expense-Tracker-App.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.Expense-Tracker-App:app [:app:org.example.App.main()].executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,6 +92,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\ankit\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="73262025-5cf6-4f66-ac68-17758a708ff2" />
+        <option name="reportName" value="Expense-Tracker-App/qodana/2024-12-12" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\ankit\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="73262025-5cf6-4f66-ac68-17758a708ff2" reportId="Expense-Tracker-App/qodana/2024-12-12" />
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -107,7 +128,10 @@
       <workItem from="1733588556437" duration="4821000" />
       <workItem from="1733633681072" duration="8581000" />
       <workItem from="1733659982295" duration="3446000" />
-      <workItem from="1733667624297" duration="6081000" />
+      <workItem from="1733667624297" duration="6393000" />
+      <workItem from="1733762085884" duration="1743000" />
+      <workItem from="1733831389093" duration="6777000" />
+      <workItem from="1734005106517" duration="8287000" />
     </task>
     <servers />
   </component>
