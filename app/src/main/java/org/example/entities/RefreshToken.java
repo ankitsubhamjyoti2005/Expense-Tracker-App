@@ -12,12 +12,13 @@ import lombok.NoArgsConstructor;
 import java.time.Instant;
 
 @Enabled
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Table(name = "tokens")
+@Data
+
 public class RefreshToken {
 
     @Id
@@ -30,5 +31,5 @@ public class RefreshToken {
 
     @OneToOne
     @JoinColumn(name = "id", referencedColumnName = "user_id")
-    private UserInfo userinfo;
+    private UserInfo userInfo;
 }
