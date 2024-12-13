@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03749cf9-6679-4efd-ad0a-e789ffc4951e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/auth/JwtAuthFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/auth/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/auth/UserConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/modele/UserInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/request/AuthRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/request/RefreshTokenRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/responce/JwtResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/services/UserDetailServiceImpli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/controller/TokenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/services/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/services/RefreshTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/entities/RefreshToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/entities/RefreshToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/services/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/services/JwtService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
     "git-widget-placeholder": "prod-branch",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Expense-Tracker-App",
+    "last_opened_file_path": "F:/Expense-Tracker-App/app/src/main/java/org/example/controller",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,30 +88,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\ankit\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="73262025-5cf6-4f66-ac68-17758a708ff2" />
-        <option name="reportName" value="Expense-Tracker-App/qodana/2024-12-12" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\ankit\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="73262025-5cf6-4f66-ac68-17758a708ff2" reportId="Expense-Tracker-App/qodana/2024-12-12" />
     </option>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
-      </set>
-    </attachedChunks>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Expense-Tracker-App\app\src\main\java\org\example\controller" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,7 +112,9 @@
       <workItem from="1733667624297" duration="6393000" />
       <workItem from="1733762085884" duration="1743000" />
       <workItem from="1733831389093" duration="6777000" />
-      <workItem from="1734005106517" duration="8287000" />
+      <workItem from="1734005106517" duration="8830000" />
+      <workItem from="1734076034830" duration="722000" />
+      <workItem from="1734075447566" duration="1724000" />
     </task>
     <servers />
   </component>
